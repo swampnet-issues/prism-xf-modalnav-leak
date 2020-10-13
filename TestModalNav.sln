@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestModalNav", "TestModalNav\TestModalNav\TestModalNav.csproj", "{D0FC3CAF-0E5B-4B19-A6D4-2ED1A94E8BBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestModalNav", "TestModalNav\TestModalNav\TestModalNav.csproj", "{D0FC3CAF-0E5B-4B19-A6D4-2ED1A94E8BBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestModalNav.Android", "TestModalNav\TestModalNav.Android\TestModalNav.Android.csproj", "{E3A5A43E-8483-4872-ACFD-D0C375D63EBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{BFA99F7A-8575-4977-BA99-862C0E6AED23}"
+	ProjectSection(SolutionItems) = preProject
+		img\screenshot-01.png = img\screenshot-01.png
+		img\screenshot-02.png = img\screenshot-02.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
