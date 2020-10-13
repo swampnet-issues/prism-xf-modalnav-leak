@@ -8,6 +8,7 @@
         <Label Text="Welcome to Xamarin Forms and Prism!" />
         <Button Command="{Binding NavigateCommand}" Margin="20" Text="Navigate"/>
         <Button Command="{Binding NavigateModalCommand}" Margin="20" Text="Navigate / Modal"/>
+        <Button Command="{Binding NavigateDialogCommand}" Margin="20" Text="Dialog"/>
     </StackLayout>
 
 </ContentPage>

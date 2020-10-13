@@ -4,6 +4,8 @@
 
 Honestly don't know if this a Forms thing, a Prism thing or, more than likely, a me thing.
 
+New Prism XF project from template. Add a few pages and wire up to commands on mainpage.
+
 Xamarin Forms Profiler snapshots after navigating to (and then back from) ChildOnePage (standard navigation) and ChildTwoPage (modal) a total of 5 times each (between snapshots 1 & 2. 0 is just my baseline).
 
 ![Xamarin Forms Profiler](https://github.com/swampnet-issues/prism-xf-modalnav-leak/blob/master/img/screenshot-01.png)

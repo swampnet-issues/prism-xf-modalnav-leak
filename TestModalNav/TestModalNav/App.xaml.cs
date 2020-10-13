@@ -30,6 +30,8 @@ namespace TestModalNav
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<ChildOnePage, ChildOneViewModel>();
             containerRegistry.RegisterForNavigation<ChildTwoPage, ChildTwoPageViewModel>();
+            
+            containerRegistry.RegisterDialog<ChildThreePage, ChildThreeViewModel>();
         }
     }
 }
