@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="TestModalNav.Views.ChildOnePage">
+    <StackLayout Orientation="Vertical">
+        <Label HorizontalOptions="Center" VerticalOptions="Center" FontSize="30" Margin="20" Text="Navigate"/>
+        <Button Command="{Binding GoBackCommand}" Text="Go Back" Margin="20"/>
+    </StackLayout>
+</ContentPage>
